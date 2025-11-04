@@ -151,7 +151,7 @@ O sistema permite o envio automático de mensagens de cobrança, lembretes e not
 - O sistema utiliza os dados salvos para enviar mensagens automáticas de cobrança, lembrete de vencimento e confirmação de pagamento para os clientes.
 - Os templates das mensagens podem ser personalizados em `templates.php`.
 
-> **Atenção:** É necessário possuir uma conta ativa na Evolution API e configurar corretamente a instância para o envio funcionar.
+> **Atenção:** É necessário possuir uma servidor ativo na Evolution API e configurar corretamente a instância para o envio funcionar.
 
 ---
 
