@@ -46,20 +46,20 @@ Ideal para academias, escolas, clubes, associações e negócios que trabalham c
 
 ## 🚀 Funcionalidades
 
-✔️ Login de usuários e controle de sessão
-✔️ Tela inicial com estatísticas e visão geral do sistema
-✔️ Cadastro, edição, exclusão e restauração de clientes (usuários)
-✔️ Cadastro, edição e exclusão de planos de mensalidade
-✔️ Cadastro, edição e exclusão de fornecedores
-✔️ Geração, visualização e controle de mensalidades (pagas, pendentes, vencidas)
-✔️ Registro de pagamentos de mensalidades
-✔️ Filtros por status e período nas mensalidades
-✔️ Visualização de mensalidades vencidas
-✔️ Gerenciamento de templates de mensagens automáticas (e-mail/WhatsApp)
-✔️ Configuração de parâmetros de e-mail e WhatsApp (API Evolution) via tela de configurações
-✔️ Histórico de exclusão/restauração de clientes
-✔️ Edição de perfil do usuário logado
-✔️ Logout seguro
+- ✔️ Login de usuários e controle de sessão
+- ✔️ Tela inicial com estatísticas e visão geral do sistema
+- ✔️ Cadastro, edição, exclusão e restauração de clientes (usuários)
+- ✔️ Cadastro, edição e exclusão de planos de mensalidade
+- ✔️ Cadastro, edição e exclusão de fornecedores
+- ✔️ Geração, visualização e controle de mensalidades (pagas, pendentes, vencidas)
+- ✔️ Registro de pagamentos de mensalidades
+- ✔️ Filtros por status e período nas mensalidades
+- ✔️ Visualização de mensalidades vencidas
+- ✔️ Gerenciamento de templates de mensagens automáticas (e-mail/WhatsApp)
+- ✔️ Configuração de parâmetros de e-mail e WhatsApp (API Evolution) via tela de configurações
+- ✔️ Histórico de exclusão/restauração de clientes
+- ✔️ Edição de perfil do usuário logado
+- ✔️ Logout seguro
 
 ---
 
@@ -67,6 +67,22 @@ Ideal para academias, escolas, clubes, associações e negócios que trabalham c
 ---
 
 ## 🛠️ Instalação
+
+### Instalação com Docker
+
+1. Certifique-se de ter o [Docker](https://www.docker.com/) e o [Docker Compose](https://docs.docker.com/compose/) instalados.
+2. No terminal, execute:
+   ```bash
+   docker-compose up -d
+   ```
+3. O sistema estará disponível em [http://localhost:8080](http://localhost:8080) e o phpMyAdmin em [http://localhost:8081](http://localhost:8081).
+4. O banco de dados será criado automaticamente com as credenciais:
+   - Host: db
+   - Usuário: agendamento
+   - Senha: agendamento
+   - Banco: gestao_mensalidades
+5. Após subir os containers, acesse o phpMyAdmin, selecione o banco `gestao_mensalidades` e importe o arquivo `database.sql` para criar as tabelas.
+6. Pronto! O sistema estará rodando em ambiente isolado e pronto para uso.
 
 ### 1. Pré-requisitos
 - PHP >= 8.1
