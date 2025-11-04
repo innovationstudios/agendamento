@@ -1,0 +1,23 @@
+mensalidades/
+├── assets/
+│   ├── css/
+│   ├── img/
+│   ├── js/
+│   └── vendor/
+├── config/
+│   └── database.php
+├── cron/
+│   └── enviar_mensalidades.php
+├── includes/
+│   ├── header.php
+│   ├── footer.php
+│   ├── sidebar.php
+│   └── navbar.php
+├── src/
+│   ├── controllers/
+│   ├── models/
+│   └── views/
+├── templates/
+│   └── mensagem_whatsapp.php
+├── .htaccess
+└── index.php

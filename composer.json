@@ -1,0 +1,7 @@
+{
+    "name": "i5/agendamento",
+    "require": {
+        "innovation-studios/evolution-api-plugin": "dev-main",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
